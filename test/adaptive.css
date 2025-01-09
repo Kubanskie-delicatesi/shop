@@ -3,24 +3,36 @@
     .swiper {
         width: 1000px;
         height: 500px;
-    }    
+    }
+    .catalog-container{
+        width: 800px;
+    }     
 }
 @media (max-width: 1020px) {
     .swiper {
         width: 750px;
         height: 400px;
+    }
+    .catalog-container{
+        width: 600px;
     }    
 }
 @media (max-width: 776px) {
     .swiper {
         width: 500px;
         height: 300px;
-    }    
+    }
+    .catalog-container{
+        width: 400px;
+    }     
 }
 @media (max-width: 520px) {
     .swiper {
         width: 350px;
         height: 200px;
+    }
+    .catalog-container{
+        margin: 20px;
     }
 }
 @media (max-width: 360px) {
