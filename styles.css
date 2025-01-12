@@ -24,6 +24,13 @@ header {
     position: fixed;
     background-color:  #4D220E;
 }
+header.fixed{
+    position: fixed;
+    transition: background-color .3s ease-in-out;
+    top: 0;
+    z-index: 1000;
+    background-color: #4D220E;
+}
 * {
     font-family: Comfortaa;
     text-decoration: none;
