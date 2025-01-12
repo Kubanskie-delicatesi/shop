@@ -112,3 +112,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
   document.addEventListener("visibilitychange", handleVisibilityChange);
 });
+// Header 
+window.addEventListener('scroll', function () {
+    const header = document.getElementById('header');
+    if (window.scrollY > 50) {
+        header.classList.add('fixed');
+    } else {
+        header.classList.remove('fixed');
+    }
+});
