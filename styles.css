@@ -19,6 +19,9 @@ html,body{
 }
 
 header {
+    width: 100%;
+    z-index: 1000;
+    position: fixed;
     background-color:  #4D220E;
 }
 * {
